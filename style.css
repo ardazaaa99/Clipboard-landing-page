@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: url(./images/bg-header-desktop.png) no-repeat ;
+    background-size: contain;
+    padding: 130px 75px;
+    
+  
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+   
+   
+    
+}
+
+.buttons .b1 {
+    font-family: Bai Jamjuree;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    cursor: pointer;
+}
+
+.buttons .b2 {
+    font-family: Bai Jamjuree;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+
+}
+
+.description {
+    font-weight: 200;
+}
+
+.title-2 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+
+
+}
+
+.description-2 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+
+}
+
+.about-inner {
+    display: flex;
+}
+
+.about-inner .img-box {
+    width: 50%;
+    overflow: hidden;
+}
+
+.about-inner .img-box img {
+    display: block;
+    width: 105%;
+    height: auto;
+    transform: translateX(-5%);
+}
+
+.about-inner .card-group {
+    width: 50%;
+    padding: 70px 110px;
+}
+
+.about-inner .card-group .card:not(:last-child) {
+    margin-bottom: 55px;
+}
+.about-inner .card-group .card h3 {
+    margin-bottom: 10px;
+    font-family: Bai Jamjuree;
+
+}
+
+.about-inner .card-group .card p {
+    max-width: 350px;
+    line-height: 2;
+    font-family: Bai Jamjuree;
+}
+
+.title-3 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    font-weight: 400;
+    font-size: 30px;
+
+}
+
+.description-3 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+    
+}
+
+.phone-tablet-img {
+    display: flex;
+    justify-content: center;
+}
+
+
+.title-4 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    font-size: 30px;
+
+}
+
+.description-4 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+    
+}
+.card-group-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+   text-align: center;
+   margin-top: 5rem;
+   margin-bottom: 5rem;
+}
+
+
+h4 {
+    font-family: Bai Jamjuree;
+    font-weight: 500;
+    font-size: 1.3rem;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.description-5 {
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+    margin-bottom: 75px;}
+
+.icons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  grid-gap: 80px 150px;
+  padding: 85px;
+}
+
+.title-5 {
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+    font-family: Bai Jamjuree;
+    font-size: 30px;
+}
+
+.description-8 {
+    display: flex;
+    justify-content: center;
+    font-family: Bai Jamjuree;
+    opacity: 0.5;
+    padding-top: 20px;
+}
+
+.buttonss {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.button-1 {
+    font-family: Bai Jamjuree;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    cursor: pointer;
+}
+
+.button-2 {
+    font-family: Bai Jamjuree;
+    font-size: 1.1rem;
+    padding: 10px;
+    border: solid;
+    border-radius: 30px;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+}
+
+
+footer {
+    margin-top: 5rem;
+    padding: 45px;
+    background-color:rgb(242, 237, 237);
+    display: grid;
+    grid-template-columns: minmax(150px, 1fr) 4fr minmax(170px, 1fr);
+}
+
+footer .footer-logo {
+    width: 55px;
+}
+
+footer .links {
+    max-width: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(120px, 120px));
+}
+
+footer .links a {
+    font-size: 15px;
+    font-weight: 500;
+    color: gray;
+    text-decoration: none;
+    font-family: Bai Jamjuree;
+}
+
+footer .links a:hover {
+    color: hsl(171, 66%, 44%);
+}
